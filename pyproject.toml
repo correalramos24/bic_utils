@@ -16,3 +16,9 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/py_utils"]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=2.21.0",
+    "twine>=4.0.2",
+]
