@@ -16,7 +16,9 @@ have something self-build :).
 
 
 ## Environment
+
 The environment managment is defined using *uv*.
+All the dependencies are in the *requirements.txt* file, can be installed using ``pip install -r requirements.txt)``.
 
 ### Testing
 
