@@ -2,7 +2,7 @@
 from unittest import TestCase
 from pathlib import Path
 
-from utils.git_project import GitProject
+from py_utils.git_project import GitProject
 
 
 class TestGitProject(TestCase):

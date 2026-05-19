@@ -1,7 +1,7 @@
 
 import functools
 from typing import Callable
-from utils.logger import MyLogger
+from py_utils.logger import MyLogger
 from dataclasses import field
 
 

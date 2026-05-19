@@ -2,9 +2,9 @@
 from pathlib import Path
 from unittest import TestCase
 
-from utils.slurm import SlurmDirectives
-from utils.logger import MyLogger, LoggerLevels
-from utils.slurm import SlurmScript
+from py_utils.slurm import SlurmDirectives
+from py_utils.logger import MyLogger, LoggerLevels
+from py_utils.slurm import SlurmScript
 
 
 class TestSlurmScript(TestCase):
