@@ -2,8 +2,8 @@
 from pathlib import Path
 from unittest import TestCase
 
-from utils.bash_cmd import BashCmd
-from utils.logger import MyLogger, LoggerLevels
+from py_utils.bash_cmd import BashCmd
+from py_utils.logger import MyLogger, LoggerLevels
 
 
 class TestBashCmd(TestCase):

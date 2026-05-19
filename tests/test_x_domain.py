@@ -5,8 +5,8 @@ from dataclasses import dataclass
 from typing import List
 import shutil
 
-from utils.x_domain import GenericObject, GenericDomain
-from utils.logger import MyLogger, LoggerLevels
+from py_utils.x_domain import GenericObject, GenericDomain
+from py_utils.logger import MyLogger, LoggerLevels
 
 
 @dataclass

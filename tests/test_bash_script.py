@@ -2,9 +2,9 @@
 from unittest import TestCase
 from pathlib import Path
 
-from utils.bash_script import BashScript
-from utils.logger import LoggerLevels, MyLogger
-from utils.utils_files import ExpectFile, file_exists
+from py_utils.bash_script import BashScript
+from py_utils.logger import LoggerLevels, MyLogger
+from py_utils.utils_files import ExpectFile, file_exists
 
 
 class TestBashScript(TestCase):

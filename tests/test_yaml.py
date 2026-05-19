@@ -2,8 +2,8 @@
 from unittest import TestCase
 from pathlib import Path
 
-from utils.logger import MyLogger, LoggerLevels
-from utils.yaml_file import YAMLFile, YAMLObject
+from py_utils.logger import MyLogger, LoggerLevels
+from py_utils.yaml_file import YAMLFile, YAMLObject
 
 
 class TestYAMLFile(TestCase):
