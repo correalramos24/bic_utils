@@ -16,10 +16,9 @@ have something self-build :).
 
 
 ## Environment
-
-The env.bash file contains all the required functions to work with
-the virutal environment and the testing. All the dependencies are in the *requirements.txt* file
+The environment managment is defined using *uv*.
 
 ### Testing
 
-Unit testing for the utilites is built using **unittest**. You can run the tests using ``python -m unittest discover -s tests`` or the bash function ``launch_tests``.
+Unit testing for the utilites is built using **unittest**. You can launch 
+the tests using `uv run python -m unittest discover`
